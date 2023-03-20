@@ -1,5 +1,5 @@
 {
-  "name": "wawrzynkiewicz/ibexa-form-builder-multi-step-forms",
+  "name": "mateuszbieniek/ezplatform-form-builder-multi-step-forms",
   "license": "MIT",
   "type": "symfony-bundle",
   "description": "Adds feature to create multi-step forms in Ibexa Form Builder",
