@@ -1,12 +1,12 @@
 {
-  "name": "mateuszbieniek/ezplatform-form-builder-multi-step-forms",
+  "name": "wawrzynkiewicz/ibexa-form-builder-multi-step-forms",
   "license": "MIT",
-  "type": "ezplatform-bundle",
-  "description": "Adds feature to create multi-step forms in eZ Platform 2.5 Form Builder",
+  "type": "symfony-bundle",
+  "description": "Adds feature to create multi-step forms in Ibexa Form Builder",
   "repositories": [
     {
       "type": "composer",
-      "url": "https://updates.ez.no/ttl"
+      "url": "https://updates.ibexa.co/ttl"
     }
   ],
   "autoload": {
@@ -16,12 +16,13 @@
     }
   },
   "require": {
-    "php": ">=7.4",
-    "ibexa/form-builder": "4.1.5"
+    "php": "^7.4 || ^8.0",
+    "ibexa/form-builder": "^4.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5",
-    "symfony/phpunit-bridge": "^6.0"
+    "symfony/phpunit-bridge": "^6.0",
+    "ibexa/code-style": "^1.0"
   },
   "scripts": {
     "fix-cs": "@php ./vendor/bin/php-cs-fixer fix -v --show-progress=estimating"
