@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 namespace MateuszBieniek\EzPlatformFormBuilderMultiStepForms\FieldType\EzForm;
 
-use eZ\Publish\API\Repository\Values\ContentType\FieldDefinition;
-use eZ\Publish\Core\FieldType\Value as BaseValue;
-use EzSystems\EzPlatformFormBuilder\FieldType\Value as OriginalValue;
-use eZ\Publish\SPI\FieldType\Value as ValueInterface;
-use eZ\Publish\SPI\Persistence\Content\FieldValue as PersistenceValue;
-use EzSystems\EzPlatformFormBuilder\FieldType\Converter\FormConverter;
-use EzSystems\EzPlatformFormBuilder\FieldType\FormFactory;
-use EzSystems\EzPlatformFormBuilder\FieldType\Model\Field;
-use EzSystems\EzPlatformFormBuilder\FieldType\Type as DecoratedType;
+use Ibexa\Contracts\Core\Repository\Values\ContentType\FieldDefinition;
+use Ibexa\Core\FieldType\Value as BaseValue;
+use Ibexa\FormBuilder\FieldType\Value as OriginalValue;
+use Ibexa\Contracts\Core\FieldType\Value as ValueInterface;
+use Ibexa\Contracts\Core\Persistence\Content\FieldValue as PersistenceValue;
+use Ibexa\FormBuilder\FieldType\Converter\FormConverter;
+use Ibexa\FormBuilder\FieldType\FormFactory;
+use Ibexa\Contracts\FormBuilder\FieldType\Model\Field;
+use Ibexa\FormBuilder\FieldType\Type as DecoratedType;
 use MateuszBieniek\EzPlatformFormBuilderMultiStepForms\Form\Type\StepFieldType;
 
 class Type extends DecoratedType

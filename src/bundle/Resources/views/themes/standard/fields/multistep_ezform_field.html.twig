@@ -11,7 +11,7 @@
                 {% if isMultiStep %}
                     {{ form_start(form) }}
                     {% set steps = multistep_form(form) %}
-                    {% include '@ezdesign/formbuilder_multistep/steps.html.twig' with {'form': form, 'steps': steps} %}
+                    {% include '@ibexadesign/formbuilder_multistep/steps.html.twig' with {'form': form, 'steps': steps} %}
                     {{ form_end(form) }}
                 {% else %}
                     {{ form(form) }}

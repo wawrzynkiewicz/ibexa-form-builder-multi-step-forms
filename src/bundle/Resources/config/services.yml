@@ -12,13 +12,13 @@ services:
             $fieldIdentifier: 'mb_step'
             $formType: 'MateuszBieniek\EzPlatformFormBuilderMultiStepForms\Form\Type\StepFieldType'
         tags:
-            - { name: ezplatform.form_builder.field_mapper }
+            - { name: ibexa.form_builder.field.mapper }
 
     MateuszBieniek\EzPlatformFormBuilderMultiStepForms\Form\Type\StepFieldType:
         tags:
             - { name: form.type }
 
     MateuszBieniek\EzPlatformFormBuilderMultiStepForms\FieldType\EzForm\Type:
-        decorates: EzSystems\EzPlatformFormBuilder\FieldType\Type
+        decorates: Ibexa\FormBuilder\FieldType\Type
         arguments: ['@MateuszBieniek\EzPlatformFormBuilderMultiStepForms\FieldType\EzForm\Type.inner']
         public:    true

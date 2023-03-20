@@ -1,4 +1,4 @@
 system:
     default:
         field_templates:
-            - { template: '@ezdesign/fields/multistep_ezform_field.html.twig', priority: 0 }
+            - { template: '@ibexadesign/fields/multistep_ezform_field.html.twig', priority: 0 }

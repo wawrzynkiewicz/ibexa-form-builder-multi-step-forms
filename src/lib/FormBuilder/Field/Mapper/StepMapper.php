@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace MateuszBieniek\EzPlatformFormBuilderMultiStepForms\FormBuilder\Field\Mapper;
 
-use EzSystems\EzPlatformFormBuilder\FieldType\Field\Mapper\GenericFieldMapper;
-use EzSystems\EzPlatformFormBuilder\FieldType\Model\Field;
+use Ibexa\FormBuilder\FieldType\Field\Mapper\GenericFieldMapper;
+use Ibexa\Contracts\FormBuilder\FieldType\Model\Field;
 use MateuszBieniek\EzPlatformFormBuilderMultiStepForms\Form\Type\StepFieldType;
 
 class StepMapper extends GenericFieldMapper

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace MateuszBieniek\EzPlatformFormBuilderMultiStepForms\FieldType\EzForm;
 
-use EzSystems\EzPlatformFormBuilder\FieldType\Model\Form;
-use EzSystems\EzPlatformFormBuilder\FieldType\Value as BaseValue;
+use Ibexa\Contracts\FormBuilder\FieldType\Model\Form;
+use Ibexa\FormBuilder\FieldType\Value as BaseValue;
 use Symfony\Component\Form\FormInterface;
 
 class Value extends BaseValue

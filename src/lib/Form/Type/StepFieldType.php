@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MateuszBieniek\EzPlatformFormBuilderMultiStepForms\Form\Type;
 
-use EzSystems\EzPlatformFormBuilder\Form\Type\Field\AbstractFieldType;
+use Ibexa\FormBuilder\Form\Type\Field\AbstractFieldType;
 use Symfony\Component\Form\Extension\Core\Type\FormType;
 use Symfony\Component\Form\FormView;
 use Symfony\Component\Form\FormInterface;
